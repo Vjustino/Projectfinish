@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Red+Hat+Display:wght@300;400;500;600&display=swap');
+
+
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background: #ccc;
+    overflow-x: hidden;
+    text-align: center;
+}        
+.header{
+    text-align: center;
+    margin: auto;
+}
+
+
+.header h1{
+    padding: 1em;
+    font-family: 'Red Hat Display',sans-serif;
+    color: #3e3d3d;
+
+}
+.header_logo{
+   display: none;
+}
+
+.header_nav{
+    background-color: #545454;
+    display: none;
+}
+
+.header_nav.show{
+    display: block;
+}
+
+ul{
+    margin: 0;
+}
+
+.header_nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .8em;
+
+}
+
+.header_nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+
+}
+
+.header_nav a:hover{
+    background-color: #7070fa ;
+    color: #06065f;
+}
+
+#hamburguer{
+    background-color: #06065f;
+    color: rgb(54, 195, 226);
+    display: block;
+    text-align: center;
+    padding: .3em;
+    cursor: pointer;
+    font: 2em;
+
+    
+
+
+}
+
+.foto_2{
+    display: none;
+}
+
+.primeira{
+    text-align: center;
+    font: 1em sans-serif;
+        
+}
+
+
+.foto{
+    border-radius: 4px;
+    height: 4em;
+    
+}
+
+.foto-div{
+    height: 7em;
+    border-radius: 6px;
+
+}
+
+.segunda{
+    text-align: center;
+    font: 1em sans-serif;
+    height: 25em;
+}
+.segunda img{
+    width: 10em;
+}
+.texto{
+    width: 10em;
+}
+
+
+
+.rodape{
+    font-family:'Red Hat Display',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: .1em;
+    width: 100%;
+    color: #f5f4f4;
+}
+
+.terceira{
+    text-align: center;
+    font: 1em sans-serif;
+}
+
+.quarta{
+    text-align: center;
+    font: 1em sans-serif;
+}
+.quinta{
+    text-align: center;
+}
+.conquistas_img{
+    display: none;
+}
+.conquistas_text img{
+    width: 5em;
+}
+
+.sexta{
+    text-align: center;
+    font: 1em sans-serif;
+    display: block;
+
+    
+}
+
+
+
+.card a{
+    
+    text-transform: uppercase;
+    color: #3e10f6;
+    text-decoration: none;
+    font-family:sans-serif;
+    background-color: #b5c8f4;
+    padding: .2em;
+    
+    
+}
+.card img{
+    display: none;
+    
+}
+
+.setima{
+    height: 10em;
+}
+
+.btn_div{
+    padding: 2em;
+    
+
+}
+
+button{
+    background-color:#7070fa;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    padding: .9rem;
+    cursor: pointer;
+    
+}
+
+
+.video{
+    display: none;
+}
+.rodape{
+    font-family:'Red Hat Display',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: .1em;
+    width: 100%;
+    color: #f5f4f4;
+    
+}
+
+.footer_content{
+    background-color: #545454;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+}
+
+.footer_contatos{
+    margin-bottom: 0.75rem;
+}
+
+.footer_social{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem
+}
+
+.footer_link{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #b4b4ef;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+.footer_link i{
+    font-size: 1.5em;
+}
+.footer_link:hover{
+    opacity: 0.8;
+}
+
+.footer_lista{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+@media screen and (max-width: 30em){
+    html{
+        margin: auto;
+        align-items: center;
+    }
+    .video{
+        display: none;
+    }
+    .rodape{
+        font-family:'Red Hat Display',sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        letter-spacing: .1em;
+        width: 100%;
+        color: #f5f4f4;
+        
+    }
+    .footer_content{
+        background-color: #0a5886;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem;
+       
+        
+    }
+    
+    .footer_contatos{
+        margin-bottom: 0.75rem;
+    }
+    
+    .footer_social{
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem
+    }
+    
+    .footer_link{
+        height: 2.5rem;
+        width: 2.5rem;
+        color: #b4b4ef;
+        text-decoration: none;
+        transition: all 0.4s;
+    }
+    .footer_link i{
+        font-size: 1.5em;
+    }
+    .footer_link:hover{
+        opacity: 0.8;
+    }
+    
+    .footer_lista{
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 48em) {
+
+    body{
+        background: linear-gradient(#a6b8ed, #82b8df);
+       
+        
+        
+    }
+
+
+
+    #hamburguer{
+        display: none;
+    }
+    
+    .container{
+       
+        margin: auto;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        
+    }
+    .header{
+        width: 100%;
+        position: initial;
+        z-index: 100;
+        padding: .3em 4% ;
+        top: 0;
+        left: 0;
+        
+    }
+
+    
+
+    .foto-div{
+        display: none;
+    }
+
+    .header_logo{
+        display:inline-block;
+        margin-left: 1em;
+        border-radius: 50%;
+    }
+
+    .header_nav{
+        background-color:initial;
+        display: block;
+        margin-left: 20em;
+        padding: .9em;
+        
+    }
+    .header_nav ul{
+        margin-right: 3em;
+        font-size: .9em;
+        
+       
+    }
+    .header_nav li{
+        display: inline-block;
+        margin: 0 .2em;
+       
+    }
+
+    .header_nav a {
+        color: #06065f;
+        border-radius: 5px;
+        
+    }
+
+    .header_nav a:hover{
+        background-color: #1c1ccf;
+        color:white ;
+        padding: 1em;
+
+    }
+    .header_logo{
+        width: 6em;
+        padding: .1em;
+    }
+
+    .header h1{
+        display: none;
+    }
+
+    .img_I{
+        display: flex;
+        position: relative;
+        
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+
+    .primeira{
+        background-image: url(Project_finish/10136775_17973908.jpg);
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        
+
+    }
+    .foto_2{
+        display:inline-block;
+        position: absolute;
+        bottom: 1em;
+        right: 0;
+        width: 15em;
+        border-radius: 50%;
+        border: .3em solid #719fe3;
+    }
+ 
+
+    .d_h2{
+        display: flex;
+        font-size: 1em;
+        color: #3c3636;
+        margin: 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        
+
+        
+        
+    }
+
+    .d_h2 h2{
+        font-size: 3em;
+        color: #0a0a70;
+    }
+
+    
+    .sobre{
+        padding: 3em;
+        font-weight: bold;
+        
+    }
+
+   
+
+    
+
+    
+    .foto{
+        float: left;
+        margin: 0;
+        padding: 0.2em;
+        border-radius: 6px;
+    }
+   
+
+    .primeira p{
+        flex-grow: 1;
+        color: black;
+        text-transform:uppercase;
+        text-align: center;
+
+    }
+
+    .segunda{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20em;
+        
+
+       
+    }
+
+    .img2 img{
+        height: 15em;
+        padding-right: 2em;
+        width: 25em;
+    }
+
+    .Texto{
+        
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 30em;
+        height: 17em;
+        
+        
+        
+       
+    }
+
+    .Texto p {
+        font-size: 1.2em;
+
+    }
+
+    .teceira{
+        height: 20em;
+        padding: 2em;
+    }
+
+    .terceira h2{
+        padding: 1em;
+    }
+
+    .terceira p{
+        font-size: 1.2em;
+    }
+
+    .quarta{
+        height: 25em;
+        padding: 2em;
+    }
+    
+
+    .quinta{
+        height: 15em;
+        padding: 2em;
+    }
+
+    .conquistas_img{
+        display: inline;
+       
+    }
+
+    .conquistas_img img{
+        
+        height: 10em;
+        padding:1em;
+       
+        
+    }
+
+    .conquistas_text img{
+        display: none;
+    }
+    .conquistas_text{
+        font-size: 1.2em;
+    }
+    
+
+    .quinta h2{
+        padding: 1em;
+    }
+
+   .text_quinta{
+    font-size: 1.2em;
+
+   }
+    
+    
+
+   
+
+    .sexta{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        
+
+        
+
+    }
+
+    .card{
+        max-width: calc(30.30% - 2em);
+        margin: .9em;
+        /*border: .2em solid #9a9696;*/
+        border-radius: 5px;
+        box-shadow: 0 2em 5em rgba (0 , 0, 0, 0.1);
+        box-sizing: border-box;
+        padding: 1.8em;
+       /* background-color:#dcdce0;*/
+        align-items: center;
+    }
+
+    .card img{
+        display: inline-block;
+        width: 80%;
+        border-radius: 2px;
+        height: auto;
+    }
+
+    .card-content{
+        padding: 1.2em;
+
+    }
+    .card-content h2{
+        font-size: 1.2em;
+        margin: 0;
+    }
+    .card-content a{
+
+        text-decoration: none;
+        color: #333;
+        
+
+    }
+    .card-content p{
+        margin: .9em 0;
+        text-transform: uppercase;
+        font-family:'Red Hat Display',sans-serif;
+        font-size: .9em;
+    }
+
+    .setima{
+        display: flex;
+        height: 30em;
+        justify-content: center;
+    }
+    .video{
+        display: inline-block;
+    }
+    
+   .setima h3{
+        font-size: 1.4em;
+        
+
+   }
+
+   .btn{
+    display: none;
+   }
+    
+
+    .rodape{
+        font-family:'Red Hat Display',sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        letter-spacing: .1em;
+        width: 100%;
+        color: #f5f4f4;
+        
+    }
+    
+
+    .footer_content{
+        background-color: #545454;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem;
+        
+        
+    }
+
+    .footer_contatos{
+        margin-bottom: 0.75rem;
+       
+    }
+
+    .footer_social{
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        
+        
+    }
+
+    .footer_link{
+        height: 2.5rem;
+        width: 2.5rem;
+        color: #b4b4ef;
+        text-decoration: none;
+        transition: all 0.4s;
+        
+    }
+    .footer_link i{
+        font-size: 1.5em;
+    }
+    .footer_link:hover{
+        opacity: 0.8;
+    }
+
+    .footer_lista{
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+    }
+
+    
+
+
+
+
+ 
+
+    
+}
+
+
+    
+
+
+
+
